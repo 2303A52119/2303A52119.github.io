@@ -9,28 +9,36 @@ font-family: Arial;
 margin:0;
 background:#0f172a;
 color:white;
-text-align:center;
 }
 
 header{
+text-align:center;
 padding:60px;
 background:#1e293b;
 }
 
 section{
 padding:40px;
+text-align:center;
 }
 
 h1{
 font-size:40px;
 }
 
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
 .card{
 background:#1e293b;
-margin:20px auto;
 padding:20px;
-width:70%;
+width:300px;
 border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 
 a{
@@ -54,27 +62,42 @@ cursor:pointer;
 <header>
 <h1>Rushik Pujari</h1>
 <p>AI / ML Enthusiast | Computer Science Student</p>
+
 <a href="https://github.com/2303A52119">GitHub</a> |
 <a href="https://www.linkedin.com/in/rushikpujari/">LinkedIn</a>
+
 </header>
 
 <section>
 <h2>About Me</h2>
-<p>I am a Computer Science student passionate about AI, Machine Learning and building intelligent systems.</p>
+<p>I am a Computer Science student passionate about AI, Machine Learning, and building intelligent systems.</p>
 </section>
 
 <section>
 <h2>Projects</h2>
 
+<div class="container">
+
 <div class="card">
 <h3>Intrusion Detection System</h3>
-<p>Machine learning based system to detect network attacks with 97% accuracy.</p>
+<p>ML-based system detecting network attacks with 97% accuracy.</p>
+<a href="https://github.com/2303A52119">View Project</a>
 </div>
 
 <div class="card">
 <h3>Traffic Flow Prediction</h3>
-<p>Deep learning model using GRU for traffic forecasting.</p>
+<p>GRU-based deep learning model for traffic forecasting.</p>
+<a href="https://github.com/2303A52119">View Project</a>
 </div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Certifications</h2>
+
+<p>AI-ML Internship | AWS | Google AI | CCNA</p>
 
 </section>
 
